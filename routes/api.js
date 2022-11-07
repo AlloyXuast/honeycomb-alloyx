@@ -1740,7 +1740,7 @@ exports.user = (req, res, next) => {
                     availible: {
                         "amount": parseInt(claim.Larynx) * 1000,
                         "precision": 3,
-                        "token": "DUAT",
+                        "token": "ALLOYX",
                     }
                },//v[10],
                 poweredUp: v[1],
@@ -1763,7 +1763,7 @@ exports.user = (req, res, next) => {
                     availible: {
                         "amount": 0,
                         "precision": 3,
-                        "token": "DUAT"
+                        "token": "ALLOYX"
                     }
                },//v[10],
                 poweredUp: v[1],
@@ -1787,7 +1787,7 @@ exports.user = (req, res, next) => {
                     availible: {
                         "amount": 0,
                         "precision": 3,
-                        "token": "LARYNX"
+                        "token": "ALLOYX"
                     }
                },//v[10],
                 poweredUp: v[1],
