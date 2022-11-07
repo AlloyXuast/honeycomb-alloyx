@@ -72,7 +72,7 @@ module.exports = {
   },
   sets: {
     rct: {
-      a: "ragnarok.game", //author
+      a: "alloyxuast", //author
       b: 0, //bond
       d: 0, //dividend
       e: "png", //handling
