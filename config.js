@@ -39,8 +39,8 @@ var startURL = ENV.STARTURL || "https://hive-api.dlux.io/"
 var clientURL = ENV.APIURL || "https://hive-api.dlux.io/"
 const clients = ENV.clients || [
     "https://api.deathwing.me/",
-    "https://api.c0ff33a.uk/,
-    "https://rpc.ecency.com/,
+    "https://api.c0ff33a.uk/",
+    "https://rpc.ecency.com/",
     "https://hived.emre.sh/",
     //"https://rpc.ausbit.dev/",
     "https://api.hive.blog/",
