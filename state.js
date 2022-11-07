@@ -94,7 +94,7 @@ module.exports = {
   stats: {
     IPFSRate: 2000,
     budgetRate: 2000,
-    chaos: 0,
+    chaos: 1,
     currationRate: 2000,
     delegationRate: 2000,
     dex_fee: "0.01000",
@@ -104,7 +104,7 @@ module.exports = {
     gov_threshhold: 0,
     delegationRate: 2000,
     hashLastIBlock: "Genesis",
-    icoPrice: 0, //in millihive
+    icoPrice: 1000, //in millihive
     interestRate: 999999999999, //mints 1 millitoken per this many millitokens in your DAO period
     lastBlock: "",
     liq_reward: 100,
@@ -115,15 +115,18 @@ module.exports = {
       account: "alloyxuast-cc",
       active_account_auths: {
         alloyxuast: 1,
+        chisdealhd: 1,
       },
-      active_threshold: 1,
+      active_threshold: 3,
       memo_key: "STM7ENRy7UsJs328k8T2kAq7zzvLUysPnfbquSZxCfxmCYxLH9Fym",
       owner_key_auths: {
-        STM5HHex8aY5D9aPbh5QgwrNDEyUqKgRrd82vesCA1Pxsw75ar4PW: 1,
+        STM5hbWR25EGaM3btUL7F1dR529EXHmCsxixuyq5m9WBDwCvV3mQL: 1,
+        STM4xzEwbNBTXSkSTfiFK9VqMPHxsNr9SxFPrFfmrbok3AkbsG2dd: 1,
       },
-      owner_threshold: 1,
+      owner_threshold: 3,
       posting_account_auths: {
         alloyxuast: 1,
+        chisdealhd: 1,
       },
       posting_threshold: 1,
     },
@@ -131,13 +134,13 @@ module.exports = {
       HIVE: 0,
       HBD: 0,
     },
-    multiSigCollateral: 0,
+    multiSigCollateral: 677442491,
     nft_byte_cost: 20,
     nft_fee_1: 100000,
     nodeRate: 2000,
     outOnBlock: 0, //amm ICO pricing
-    safetyLimit: 0,
+    safetyLimit: 17872397,
     savingsRate: 1000,
-    tokenSupply: 1, //your starting token supply
+    tokenSupply: 73307132648, //your starting token supply
   },
 };
