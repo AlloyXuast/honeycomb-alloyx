@@ -22,7 +22,7 @@ const mode = ENV.mode || 'normal'
 
 // testing configs for replays
 const override = ENV.override || 0 //69116600 //will use standard restarts after this blocknumber
-const engineCrank = ENV.startingHash || 'QmSEvGHpx1YeRxLTksrntyFXjRL8tJb7YEAs856rfHWqkG' //but this state will be inserted before
+const engineCrank = ENV.startingHash || '' //but this state will be inserted before
 
 // third party configs
 const rta = ENV.rta || '' //rtrades account : IPFS pinning interface
@@ -35,8 +35,8 @@ const ipfsprotocol = ENV.ipfsprotocol || 'https' //IPFS upload/download protocol
 const bidRate = ENV.BIDRATE || 2500 //
 
 //HIVE CONFIGS
-var startURL = ENV.STARTURL || "https://hive-api.dlux.io/"
-var clientURL = ENV.APIURL || "https://hive-api.dlux.io/"
+var startURL = ENV.STARTURL || "https://rpc.ecency.com/"
+var clientURL = ENV.APIURL || "https://rpc.ecency.com/"
 const clients = ENV.clients || [
     "https://api.deathwing.me/",
     "https://api.c0ff33a.uk/",
@@ -49,12 +49,12 @@ const clients = ENV.clients || [
 
 //!!!!!!! -- THESE ARE COMMUNITY CONSTANTS -- !!!!!!!!!//
 //TOKEN CONFIGS -- ALL COMMUNITY RUNNERS NEED THESE SAME VALUES
-const starting_block = 69454071; //from what block does your token start
-const prefix = 'alloyx_' //Community token name for Custom Json IDs
-const TOKEN = 'ALLOYX' //Token name
+const starting_block = 69610771; //from what block does your token start
+const prefix = 'alloyx2_' //Community token name for Custom Json IDs
+const TOKEN = 'ALLOYX2' //Token name
 const precision = 3 //precision of token
-const tag = 'alloyx' //the fe.com/<tag>/@<leader>/<permlink>
-const jsonTokenName = 'alloyx' //what customJSON in Escrows and sends is looking for
+const tag = 'alloyx2' //the fe.com/<tag>/@<leader>/<permlink>
+const jsonTokenName = 'alloyx2' //what customJSON in Escrows and sends is looking for
 const leader = 'alloyxuast' //Default account to pull state from, will post token 
 const ben = '' //Account where comment benifits trigger token action
 const delegation = 'alloyxuast' //account people can delegate to for rewards
